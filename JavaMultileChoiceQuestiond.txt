@@ -1,0 +1,1359 @@
+🔹 Collections in Java — MCQs
+
+1. Which of these allows duplicate elements?
+a) HashSet
+b) TreeSet
+c) ArrayList
+d) LinkedHashSet
+✅ c) ArrayList
+
+2. Which collection class is synchronized?
+a) ArrayList
+b) HashMap
+c) Vector
+d) LinkedList
+✅ c) Vector
+
+3. Which interface does HashMap implement?
+a) List
+b) Map
+c) Set
+d) Collection
+✅ b) Map
+
+4. Which of these maintains insertion order?
+a) HashSet
+b) LinkedHashSet
+c) TreeSet
+d) PriorityQueue
+✅ b) LinkedHashSet
+
+5. Which method is used to get the size of a collection?
+a) length()
+b) size()
+c) getSize()
+d) count()
+✅ b) size()
+
+6. Which collection uses a key-value pair structure?
+a) ArrayList
+b) HashSet
+c) HashMap
+d) LinkedList
+✅ c) HashMap
+
+7. Which of these is a sorted collection?
+a) HashSet
+b) TreeSet
+c) LinkedList
+d) ArrayList
+✅ b) TreeSet
+
+8. Which method is used to remove all elements from a collection?
+a) clear()
+b) removeAll()
+c) delete()
+d) erase()
+✅ a) clear()
+
+9. Which collection allows null keys?
+a) HashMap
+b) Hashtable
+c) TreeMap
+d) LinkedHashMap
+✅ a) HashMap
+
+10. Which method returns an iterator over a collection?
+a) getIterator()
+b) iterator()
+c) listIterator()
+d) iterate()
+✅ b) iterator()
+
+🔹 File Handling in Java — MCQs
+
+1. Which class is used to read text files in Java?
+a) FileReader
+b) FileWriter
+c) BufferedReader
+d) InputStream
+✅ a) FileReader
+
+2. Which method checks if a file exists?
+a) exists()
+b) check()
+c) isPresent()
+d) fileExists()
+✅ a) exists()
+
+3. Which method is used to write data to a file?
+a) write()
+b) print()
+c) output()
+d) save()
+✅ a) write()
+
+4. Which class is used to write text data to a file?
+a) FileReader
+b) FileWriter
+c) BufferedWriter
+d) OutputStreamWriter
+✅ b) FileWriter
+
+5. Which exception is checked when dealing with file operations?
+a) IOException
+b) FileException
+c) FileNotFoundException
+d) both a and c
+✅ d) both a and c
+
+6. Which method deletes a file in Java?
+a) remove()
+b) delete()
+c) erase()
+d) destroy()
+✅ b) delete()
+
+7. Which of these is used to read a file line by line?
+a) FileReader
+b) BufferedReader
+c) Scanner
+d) both b and c
+✅ d) both b and c
+
+8. Which method returns the length of a file in bytes?
+a) getLength()
+b) size()
+c) length()
+d) fileSize()
+✅ c) length()
+
+9. Which mode in FileWriter overwrites the file?
+a) append mode = false
+b) append mode = true
+c) overwrite mode = true
+d) write mode = false
+✅ a) append mode = false
+
+10. Which class is used to write primitive data types to a file?
+a) FileWriter
+b) DataOutputStream
+c) BufferedWriter
+d) PrintWriter
+✅ b) DataOutputStream
+
+🔹 Advanced Collections MCQs (25 Qs)
+
+1. Which of these allows duplicate values but does not maintain insertion order?
+a) HashSet
+b) ArrayList
+c) TreeSet
+d) LinkedHashSet
+✅ b) ArrayList
+
+2. Which method is used to retrieve but not remove the first element of a Queue?
+a) poll()
+b) peek()
+c) element()
+d) get()
+✅ b) peek()
+
+3. Which interface extends Collection but allows indexed access?
+a) List
+b) Set
+c) Map
+d) Queue
+✅ a) List
+
+4. Which class implements a resizable array in Java?
+a) Vector
+b) ArrayList
+c) LinkedList
+d) HashMap
+✅ b) ArrayList
+
+5. Which collection class is optimized for frequent insertions and deletions?
+a) ArrayList
+b) LinkedList
+c) HashSet
+d) TreeSet
+✅ b) LinkedList
+
+6. Which collection is sorted according to natural ordering or a comparator?
+a) LinkedHashSet
+b) TreeSet
+c) HashMap
+d) ArrayList
+✅ b) TreeSet
+
+7. Which of these is true about HashMap?
+a) Allows duplicate keys
+b) Maintains insertion order
+c) Allows one null key
+d) Is synchronized
+✅ c) Allows one null key
+
+8. Which method removes an element at a specific index in a list?
+a) remove(index)
+b) delete(index)
+c) erase(index)
+d) clear(index)
+✅ a) remove(index)
+
+9. Which interface defines methods for a double-ended queue?
+a) List
+b) Queue
+c) Deque
+d) Set
+✅ c) Deque
+
+10. Which of these is true about LinkedHashMap?
+a) Maintains insertion order
+b) Does not allow null keys
+c) Is not a part of Java Collections Framework
+d) Is synchronized
+✅ a) Maintains insertion order
+
+11. Which method returns an array containing all of the elements in a collection?
+a) toArray()
+b) getArray()
+c) toList()
+d) array()
+✅ a) toArray()
+
+12. Which method removes all elements that match a given collection?
+a) removeAll()
+b) clear()
+c) deleteAll()
+d) eraseAll()
+✅ a) removeAll()
+
+13. Which interface does PriorityQueue implement?
+a) List
+b) Set
+c) Queue
+d) Map
+✅ c) Queue
+
+14. Which class implements a synchronized list?
+a) Vector
+b) ArrayList
+c) LinkedList
+d) HashSet
+✅ a) Vector
+
+15. Which method adds all elements from one collection to another?
+a) addAll()
+b) putAll()
+c) insertAll()
+d) mergeAll()
+✅ a) addAll()
+
+16. Which of these is not a type of collection in Java?
+a) List
+b) Map
+c) Queue
+d) Dictionary
+✅ d) Dictionary
+
+17. Which method in ListIterator moves the cursor backward?
+a) previous()
+b) back()
+c) rewind()
+d) getPrevious()
+✅ a) previous()
+
+18. Which collection type is ideal for key-value pairs with fast retrieval?
+a) HashSet
+b) HashMap
+c) ArrayList
+d) TreeSet
+✅ b) HashMap
+
+19. Which of these is not part of the Java Collections Framework?
+a) Stack
+b) ArrayList
+c) Vector
+d) Hashtable
+✅ a) Stack (Stack exists but is legacy — replaced by Deque)
+
+20. Which method returns a synchronized view of a list?
+a) Collections.synchronizedList(list)
+b) list.synchronized()
+c) synchronizedList(list)
+d) list.sync()
+✅ a) Collections.synchronizedList(list)
+
+21. Which interface defines an unordered collection of unique elements?
+a) Set
+b) List
+c) Map
+d) Queue
+✅ a) Set
+
+22. Which method replaces all elements in a list with the specified value?
+a) replaceAll()
+b) setAll()
+c) fill()
+d) updateAll()
+✅ a) replaceAll()
+
+23. Which method retrieves but removes the head of a queue?
+a) remove()
+b) poll()
+c) peek()
+d) get()
+✅ b) poll()
+
+24. Which of these collections is backed by an array?
+a) ArrayList
+b) LinkedList
+c) HashSet
+d) PriorityQueue
+✅ a) ArrayList
+
+25. Which method in Map returns a set of keys?
+a) keySet()
+b) getKeys()
+c) keys()
+d) allKeys()
+✅ a) keySet()
+
+🔹 Advanced File Handling MCQs (25 Qs)
+
+1. Which class in Java is used to read binary files?
+a) FileReader
+b) FileInputStream
+c) BufferedReader
+d) Scanner
+✅ b) FileInputStream
+
+2. Which class in Java is used to write binary files?
+a) FileWriter
+b) FileOutputStream
+c) BufferedWriter
+d) PrintWriter
+✅ b) FileOutputStream
+
+3. Which method of the File class checks if a file is a directory?
+a) isDirectory()
+b) checkDirectory()
+c) isDir()
+d) directoryExists()
+✅ a) isDirectory()
+
+4. Which method of the File class checks if a file exists?
+a) fileExists()
+b) exists()
+c) checkExists()
+d) isPresent()
+✅ b) exists()
+
+5. Which method reads a single character from a file?
+a) readChar()
+b) read()
+c) getChar()
+d) readCharacter()
+✅ b) read()
+
+6. Which method is used to write a single character to a file?
+a) writeChar()
+b) write()
+c) putChar()
+d) writeCharacter()
+✅ b) write()
+
+7. Which class in Java is used for buffered character input?
+a) FileReader
+b) BufferedReader
+c) Scanner
+d) InputStreamReader
+✅ b) BufferedReader
+
+8. Which method of BufferedReader reads a line of text?
+a) read()
+b) readLine()
+c) getLine()
+d) readText()
+✅ b) readLine()
+
+9. Which exception is thrown if a file is not found?
+a) IOException
+b) FileNotFoundException
+c) NullPointerException
+d) NoSuchFileException
+✅ b) FileNotFoundException
+
+10. Which class can be used to read files line-by-line efficiently?
+a) Scanner
+b) BufferedReader
+c) FileReader
+d) DataInputStream
+✅ b) BufferedReader
+
+11. Which constructor of FileWriter is used to append data to an existing file?
+a) FileWriter(file, true)
+b) FileWriter(file, false)
+c) FileWriter(file)
+d) appendWriter(file)
+✅ a) FileWriter(file, true)
+
+12. Which method of the File class returns the name of the file?
+a) getName()
+b) name()
+c) fileName()
+d) getFileName()
+✅ a) getName()
+
+13. Which method of the File class returns the absolute path of the file?
+a) getPath()
+b) getAbsolutePath()
+c) absolutePath()
+d) filePath()
+✅ b) getAbsolutePath()
+
+14. Which method of the File class returns the file size in bytes?
+a) length()
+b) getSize()
+c) size()
+d) fileLength()
+✅ a) length()
+
+15. Which class in Java is used to write primitive data types to a file?
+a) DataWriter
+b) DataOutputStream
+c) BufferedWriter
+d) FileWriter
+✅ b) DataOutputStream
+
+16. Which method in PrintWriter writes formatted text to a file?
+a) printf()
+b) write()
+c) print()
+d) println()
+✅ a) printf()
+
+17. Which method is used to create a new empty file in Java?
+a) create()
+b) createNewFile()
+c) newFile()
+d) makeFile()
+✅ b) createNewFile()
+
+18. Which method of File deletes a file?
+a) remove()
+b) delete()
+c) erase()
+d) clear()
+✅ b) delete()
+
+19. Which method of File returns all files and directories in a directory?
+a) listFiles()
+b) getFiles()
+c) files()
+d) directoryList()
+✅ a) listFiles()
+
+20. Which class in Java is used to write text data to a file efficiently?
+a) FileWriter
+b) BufferedWriter
+c) DataOutputStream
+d) OutputStreamWriter
+✅ b) BufferedWriter
+
+21. Which method of BufferedWriter writes a newline?
+a) newLine()
+b) newline()
+c) writeLine()
+d) line()
+✅ a) newLine()
+
+22. Which class in Java is used to read primitive data types from a file?
+a) DataInputStream
+b) FileReader
+c) BufferedReader
+d) Scanner
+✅ a) DataInputStream
+
+23. Which method of Scanner reads the next line from a file?
+a) next()
+b) nextLine()
+c) readLine()
+d) line()
+✅ b) nextLine()
+
+24. Which class is used to convert a byte stream into a character stream?
+a) InputStreamReader
+b) FileReader
+c) BufferedReader
+d) DataInputStream
+✅ a) InputStreamReader
+
+25. Which method of PrintWriter flushes the stream and writes data to a file?
+a) flush()
+b) write()
+c) print()
+d) close()
+✅ a) flush()
+
+🔹 Advanced Collections MCQs (25 Questions)
+
+Which of these allows duplicate values but does not maintain insertion order?
+✅ b) ArrayList
+
+Which method is used to retrieve but not remove the first element of a Queue?
+✅ b) peek()
+
+Which interface extends Collection but allows indexed access?
+✅ a) List
+
+Which class implements a resizable array in Java?
+✅ b) ArrayList
+
+Which collection class is optimized for frequent insertions and deletions?
+✅ b) LinkedList
+
+Which collection is sorted according to natural ordering or a comparator?
+✅ b) TreeSet
+
+Which of these is true about HashMap?
+✅ c) Allows one null key
+
+Which method removes an element at a specific index in a list?
+✅ a) remove(index)
+
+Which interface defines methods for a double-ended queue?
+✅ c) Deque
+
+Which of these is true about LinkedHashMap?
+✅ a) Maintains insertion order
+
+Which method returns an array containing all of the elements in a collection?
+✅ a) toArray()
+
+Which method removes all elements that match a given collection?
+✅ a) removeAll()
+
+Which interface does PriorityQueue implement?
+✅ c) Queue
+
+Which class implements a synchronized list?
+✅ a) Vector
+
+Which method adds all elements from one collection to another?
+✅ a) addAll()
+
+Which of these is not a type of collection in Java?
+✅ d) Dictionary
+
+Which method in ListIterator moves the cursor backward?
+✅ a) previous()
+
+Which collection type is ideal for key-value pairs with fast retrieval?
+✅ b) HashMap
+
+Which of these is not part of the Java Collections Framework?
+✅ a) Stack
+
+Which method returns a synchronized view of a list?
+✅ a) Collections.synchronizedList(list)
+
+Which interface defines an unordered collection of unique elements?
+✅ a) Set
+
+Which method replaces all elements in a list with the specified value?
+✅ a) replaceAll()
+
+Which method retrieves but removes the head of a queue?
+✅ b) poll()
+
+Which of these collections is backed by an array?
+✅ a) ArrayList
+
+Which method in Map returns a set of keys?
+✅ a) keySet()
+
+🔹 Advanced File Handling MCQs (25 Questions)
+
+Which class in Java is used to read binary files?
+✅ b) FileInputStream
+
+Which class in Java is used to write binary files?
+✅ b) FileOutputStream
+
+Which method of the File class checks if a file is a directory?
+✅ a) isDirectory()
+
+Which method of the File class checks if a file exists?
+✅ b) exists()
+
+Which method reads a single character from a file?
+✅ b) read()
+
+Which method is used to write a single character to a file?
+✅ b) write()
+
+Which class in Java is used for buffered character input?
+✅ b) BufferedReader
+
+Which method of BufferedReader reads a line of text?
+✅ b) readLine()
+
+Which exception is thrown if a file is not found?
+✅ b) FileNotFoundException
+
+Which class can be used to read files line-by-line efficiently?
+✅ b) BufferedReader
+
+Which constructor of FileWriter is used to append data to an existing file?
+✅ a) FileWriter(file, true)
+
+Which method of the File class returns the name of the file?
+✅ a) getName()
+
+Which method of the File class returns the absolute path of the file?
+✅ b) getAbsolutePath()
+
+Which method of the File class returns the file size in bytes?
+✅ a) length()
+
+Which class in Java is used to write primitive data types to a file?
+✅ b) DataOutputStream
+
+Which method in PrintWriter writes formatted text to a file?
+✅ a) printf()
+
+Which method is used to create a new empty file in Java?
+✅ b) createNewFile()
+
+Which method of the File class deletes a file?
+✅ b) delete()
+
+Which method of File returns all files and directories in a directory?
+✅ a) listFiles()
+
+Which class in Java is used to write text data to a file efficiently?
+✅ b) BufferedWriter
+
+Which method of BufferedWriter writes a newline?
+✅ a) newLine()
+
+Which class in Java is used to read primitive data types from a file?
+✅ a) DataInputStream
+
+Which method of Scanner reads the next line from a file?
+✅ b) nextLine()
+
+Which class is used to convert a byte stream into a character stream?
+✅ a) InputStreamReader
+
+Which method of PrintWriter flushes the stream and writes data to a file?
+✅ a) flush()
+
+🔹 Advanced Java MCQs — Multithreading & Exceptions (25 Qs)
+
+1. Which method is used to pause the execution of a thread for a specified time?
+a) wait()
+b) sleep()
+c) pause()
+d) delay()
+✅ b) sleep()
+
+2. Which method is used to wake up a single thread that is waiting on an object?
+a) wake()
+b) notify()
+c) resume()
+d) notifyAll()
+✅ b) notify()
+
+3. Which method is used to wake up all threads waiting on an object?
+a) notifyAll()
+b) wakeAll()
+c) notify()
+d) resumeAll()
+✅ a) notifyAll()
+
+4. Which of these is not a thread state in Java?
+a) New
+b) Runnable
+c) Waiting
+d) Paused
+✅ d) Paused
+
+5. Which keyword is used to define a thread-safe block?
+a) synchronize
+b) synchronized
+c) sync
+d) threadSafe
+✅ b) synchronized
+
+6. Which method starts a new thread of execution?
+a) run()
+b) start()
+c) init()
+d) execute()
+✅ b) start()
+
+7. Which of these is used for handling exceptions in Java?
+a) try-catch
+b) throw-catch
+c) try-except
+d) exception-handler
+✅ a) try-catch
+
+8. Which of these is a checked exception?
+a) NullPointerException
+b) IOException
+c) ArithmeticException
+d) ArrayIndexOutOfBoundsException
+✅ b) IOException
+
+9. Which of these is an unchecked exception?
+a) SQLException
+b) IOException
+c) NullPointerException
+d) FileNotFoundException
+✅ c) NullPointerException
+
+10. Which keyword is used to manually throw an exception?
+a) throw
+b) throws
+c) error
+d) exception
+✅ a) throw
+
+11. Which keyword is used in a method declaration to declare exceptions it might throw?
+a) throw
+b) throws
+c) exception
+d) error
+✅ b) throws
+
+12. Which method is called when an exception is thrown?
+a) catch()
+b) handle()
+c) throw()
+d) finally()
+✅ a) catch()
+
+13. Which block executes regardless of exception occurrence?
+a) catch
+b) try
+c) finally
+d) throw
+✅ c) finally
+
+14. Which of these exceptions occurs when dividing by zero?
+a) IOException
+b) ArithmeticException
+c) NullPointerException
+d) NumberFormatException
+✅ b) ArithmeticException
+
+15. Which of these is true about Runnable interface?
+a) Extends Thread class
+b) Can be implemented by any class
+c) Contains run() and start() methods
+d) Requires no method implementation
+✅ b) Can be implemented by any class
+
+16. Which of these methods belongs to the Thread class?
+a) run()
+b) execute()
+c) start()
+d) Both a and c
+✅ d) Both a and c
+
+17. Which of these is not a valid method of Thread class?
+a) sleep()
+b) run()
+c) start()
+d) execute()
+✅ d) execute()
+
+18. Which of these creates a new thread in Java?
+a) Extending Thread class
+b) Implementing Runnable interface
+c) Both a and b
+d) Neither a nor b
+✅ c) Both a and b
+
+19. Which of these methods stops a thread immediately?
+a) stop()
+b) interrupt()
+c) suspend()
+d) terminate()
+✅ a) stop() (deprecated — unsafe)
+
+20. Which of these exceptions is thrown when a thread is waiting indefinitely?
+a) InterruptedException
+b) TimeoutException
+c) NoSuchThreadException
+d) WaitException
+✅ a) InterruptedException
+
+21. Which method checks whether a thread is alive?
+a) isRunning()
+b) isAlive()
+c) checkThread()
+d) getState()
+✅ b) isAlive()
+
+22. Which method returns the currently executing thread?
+a) currentThread()
+b) getThread()
+c) activeThread()
+d) runningThread()
+✅ a) currentThread()
+
+23. Which keyword in Java is used for exception propagation?
+a) throw
+b) throws
+c) exception
+d) propagate
+✅ b) throws
+
+24. Which of these is used to handle multiple exceptions in a single catch block?
+a) MultiCatch
+b) catch(Exception1, Exception2)
+c) catch(Exception e)
+d) catch(Exception e1, Exception e2)
+✅ a) MultiCatch (Java 7+)
+
+25. Which exception occurs when an array is accessed with an invalid index?
+a) ArrayIndexOutOfBoundsException
+b) IndexOutOfBoundsException
+c) IllegalArgumentException
+d) NullPointerException
+✅ a) ArrayIndexOutOfBoundsException
+
+Advanced Java MCQs — OOPs & Design Patterns (25 Qs)
+
+1. Which principle of OOP helps in hiding internal details of an object?
+a) Inheritance
+b) Encapsulation
+c) Polymorphism
+d) Abstraction
+✅ b) Encapsulation
+
+2. Which principle of OOP allows using the same method name with different parameters?
+a) Overloading
+b) Overriding
+c) Abstraction
+d) Encapsulation
+✅ a) Overloading
+
+3. Which principle of OOP allows a subclass to provide a specific implementation of a method defined in a superclass?
+a) Overloading
+b) Overriding
+c) Encapsulation
+d) Inheritance
+✅ b) Overriding
+
+4. Which principle of OOP allows one class to acquire the properties of another class?
+a) Inheritance
+b) Polymorphism
+c) Abstraction
+d) Encapsulation
+✅ a) Inheritance
+
+5. Which OOP concept allows objects to take many forms?
+a) Abstraction
+b) Encapsulation
+c) Polymorphism
+d) Inheritance
+✅ c) Polymorphism
+
+6. Which keyword is used to inherit a class in Java?
+a) implements
+b) inherits
+c) extends
+d) super
+✅ c) extends
+
+7. Which keyword is used to implement an interface?
+a) inherit
+b) implements
+c) extends
+d) interface
+✅ b) implements
+
+8. Which of these is true about abstract classes in Java?
+a) Cannot have constructors
+b) Can have abstract and non-abstract methods
+c) Cannot have variables
+d) Can be instantiated
+✅ b) Can have abstract and non-abstract methods
+
+9. Which of these is true about interfaces in Java?
+a) Can have constructors
+b) Can have only abstract methods
+c) Can have default and static methods
+d) Can be instantiated
+✅ c) Can have default and static methods
+
+10. Which keyword is used to refer to the superclass of an object?
+a) super
+b) this
+c) parent
+d) base
+✅ a) super
+
+11. Which access modifier allows access only within the same package?
+a) public
+b) private
+c) protected
+d) default
+✅ d) default
+
+12. Which access modifier allows access only within the same class?
+a) public
+b) private
+c) protected
+d) default
+✅ b) private
+
+13. Which design pattern provides a way to access the elements of an aggregate object sequentially without exposing its underlying representation?
+a) Singleton
+b) Factory
+c) Iterator
+d) Observer
+✅ c) Iterator
+
+14. Which design pattern ensures a class has only one instance and provides a global point of access to it?
+a) Factory
+b) Singleton
+c) Observer
+d) Prototype
+✅ b) Singleton
+
+15. Which design pattern provides an interface for creating families of related objects without specifying their concrete classes?
+a) Singleton
+b) Factory
+c) Abstract Factory
+d) Builder
+✅ c) Abstract Factory
+
+16. Which design pattern allows an object to change its behavior when its internal state changes?
+a) Strategy
+b) State
+c) Adapter
+d) Decorator
+✅ b) State
+
+17. Which design pattern provides a way to add behavior to objects dynamically?
+a) Adapter
+b) Decorator
+c) Strategy
+d) Observer
+✅ b) Decorator
+
+18. Which design pattern converts the interface of a class into another interface clients expect?
+a) Adapter
+b) Singleton
+c) Factory
+d) Strategy
+✅ a) Adapter
+
+19. Which of these design patterns provides a way to encapsulate a request as an object?
+a) Command
+b) Observer
+c) Builder
+d) Prototype
+✅ a) Command
+
+20. Which design pattern provides a way to access the elements of a collection without exposing its underlying representation?
+a) Iterator
+b) Strategy
+c) Visitor
+d) Observer
+✅ a) Iterator
+
+21. Which keyword in Java is used to prevent a class from being inherited?
+a) stop
+b) final
+c) static
+d) const
+✅ b) final
+
+22. Which of these is not a type of polymorphism in Java?
+a) Compile-time
+b) Run-time
+c) Multiple
+d) Dynamic
+✅ c) Multiple
+
+23. Which of these access modifiers makes a member visible to all classes everywhere?
+a) public
+b) private
+c) protected
+d) default
+✅ a) public
+
+24. Which design pattern defines an interface for creating an object, but lets subclasses decide which class to instantiate?
+a) Singleton
+b) Factory Method
+c) Builder
+d) Prototype
+✅ b) Factory Method
+
+25. Which of these is not a principle of OOP?
+a) Encapsulation
+b) Inheritance
+c) Polymorphism
+d) Compilation
+✅ d) Compilation
+
+🔹 Advanced Java MCQs — Java 8, Lambdas, Streams & JDBC (25 Qs)
+
+1. Which of these is a new feature introduced in Java 8?
+a) Lambda Expressions
+b) Generics
+c) Collections
+d) Multithreading
+✅ a) Lambda Expressions
+
+2. Which functional interface represents a function that accepts one argument and produces a result?
+a) Consumer
+b) Supplier
+c) Function
+d) Predicate
+✅ c) Function
+
+3. Which functional interface represents an operation that accepts a single argument and returns no result?
+a) Supplier
+b) Consumer
+c) Predicate
+d) Function
+✅ b) Consumer
+
+4. Which functional interface represents a boolean-valued function of one argument?
+a) Consumer
+b) Supplier
+c) Predicate
+d) Function
+✅ c) Predicate
+
+5. Which method in Stream API is used to transform each element in a stream?
+a) map()
+b) filter()
+c) reduce()
+d) collect()
+✅ a) map()
+
+6. Which Stream API method is used to select elements based on a condition?
+a) map()
+b) filter()
+c) reduce()
+d) collect()
+✅ b) filter()
+
+7. Which Stream API method combines elements of a stream to produce a single result?
+a) map()
+b) filter()
+c) reduce()
+d) collect()
+✅ c) reduce()
+
+8. Which method converts a Stream into a collection?
+a) toList()
+b) collect()
+c) gather()
+d) convert()
+✅ b) collect()
+
+9. Which interface is used as the base for all streams in Java 8?
+a) Stream
+b) BaseStream
+c) Iterable
+d) Collectors
+✅ b) BaseStream
+
+10. Which Stream method is terminal operation?
+a) map()
+b) filter()
+c) collect()
+d) peek()
+✅ c) collect()
+
+11. Which of these is a valid syntax of lambda expression?
+a) (a, b) -> a + b
+b) a, b -> a + b
+c) {a, b} -> a + b
+d) (a, b) => a + b
+✅ a) (a, b) -> a + b
+
+12. Which of these is used to create a JDBC connection?
+a) DriverManager.getConnection()
+b) ConnectionManager.getConnection()
+c) Driver.getConnection()
+d) Connection.getConnection()
+✅ a) DriverManager.getConnection()
+
+13. Which JDBC interface is used to execute a SQL query?
+a) Statement
+b) PreparedStatement
+c) CallableStatement
+d) All of the above
+✅ d) All of the above
+
+14. Which JDBC method executes a SELECT query?
+a) executeUpdate()
+b) executeQuery()
+c) execute()
+d) runQuery()
+✅ b) executeQuery()
+
+15. Which JDBC method executes an INSERT/UPDATE/DELETE query?
+a) executeQuery()
+b) executeUpdate()
+c) execute()
+d) runUpdate()
+✅ b) executeUpdate()
+
+16. Which JDBC interface represents a connection to a database?
+a) Statement
+b) Connection
+c) Driver
+d) ResultSet
+✅ b) Connection
+
+17. Which JDBC interface stores the result of a SQL query?
+a) ResultSet
+b) Statement
+c) Connection
+d) Driver
+✅ a) ResultSet
+
+18. Which method moves the cursor to the next row of a ResultSet?
+a) next()
+b) move()
+c) getRow()
+d) advance()
+✅ a) next()
+
+19. Which JDBC method closes the database connection?
+a) closeConnection()
+b) close()
+c) disconnect()
+d) shutdown()
+✅ b) close()
+
+20. Which Stream method returns a new stream with distinct elements?
+a) distinct()
+b) unique()
+c) filter()
+d) map()
+✅ a) distinct()
+
+21. Which functional interface represents an operation with no arguments and a result?
+a) Supplier
+b) Consumer
+c) Function
+d) Predicate
+✅ a) Supplier
+
+22. Which Stream method sorts the elements?
+a) sort()
+b) sorted()
+c) order()
+d) arrange()
+✅ b) sorted()
+
+23. Which Stream method counts the number of elements?
+a) size()
+b) count()
+c) length()
+d) total()
+✅ b) count()
+
+24. Which method of Collectors converts a stream into a list?
+a) toList()
+b) collectList()
+c) collect()
+d) toCollection()
+✅ a) toList()
+
+25. Which of these is true about Java 8 Streams?
+a) Streams store data
+b) Streams are not reusable
+c) Streams are always sequential
+d) Streams require manual closing
+✅ b) Streams are not reusable
+
+🔹 Advanced Java MCQs — Core Java & JVM (25 Qs)
+
+1. What does JVM stand for?
+a) Java Virtual Machine
+b) Java Verified Method
+c) Java Variable Memory
+d) Java Virtual Method
+✅ a) Java Virtual Machine
+
+2. Which of these is not a valid JVM memory area?
+a) Heap
+b) Stack
+c) Code Segment
+d) Cache
+✅ d) Cache
+
+3. Which part of JVM is responsible for loading classes?
+a) Execution Engine
+b) Class Loader Subsystem
+c) Garbage Collector
+d) Runtime Data Area
+✅ b) Class Loader Subsystem
+
+4. Which garbage collector is used by default in Java 8?
+a) Serial GC
+b) Parallel GC
+c) G1 GC
+d) CMS GC
+✅ c) G1 GC
+
+5. Which of these is not a type of class loader in JVM?
+a) Bootstrap Class Loader
+b) Extension Class Loader
+c) Application Class Loader
+d) Custom Class Loader
+✅ d) Custom Class Loader (It exists but is not standard JVM type)
+
+6. Which of these methods is called by the garbage collector before collecting an object?
+a) finalize()
+b) cleanup()
+c) destroy()
+d) delete()
+✅ a) finalize()
+
+7. Which of these exceptions is thrown when JVM runs out of heap space?
+a) NullPointerException
+b) StackOverflowError
+c) OutOfMemoryError
+d) MemoryFullException
+✅ c) OutOfMemoryError
+
+8. Which of these exceptions is thrown when there is a stack overflow?
+a) StackOverflowError
+b) OutOfMemoryError
+c) MemoryOverflowException
+d) StackFullException
+✅ a) StackOverflowError
+
+9. Which of these is a marker interface in Java?
+a) Serializable
+b) Comparable
+c) Cloneable
+d) All of the above
+✅ d) All of the above
+
+10. Which keyword in Java is used to prevent method overriding?
+a) final
+b) static
+c) abstract
+d) override
+✅ a) final
+
+11. Which of these is true about static methods?
+a) They cannot be overridden
+b) They can access instance variables
+c) They belong to objects
+d) They cannot be called without an object
+✅ a) They cannot be overridden
+
+12. Which of these is true about final variables?
+a) They can be initialized multiple times
+b) They cannot change once initialized
+c) They are always static
+d) They must be private
+✅ b) They cannot change once initialized
+
+13. Which of these is true about transient variables?
+a) They are serialized
+b) They are not serialized
+c) They are always static
+d) They are final
+✅ b) They are not serialized
+
+14. Which method is used to start garbage collection manually?
+a) System.gc()
+b) Runtime.gc()
+c) GarbageCollector.start()
+d) Both a and b
+✅ d) Both a and b
+
+15. Which keyword in Java is used to handle exceptions?
+a) try
+b) catch
+c) finally
+d) All of the above
+✅ d) All of the above
+
+16. Which of these exceptions is not checked at compile time?
+a) IOException
+b) FileNotFoundException
+c) NullPointerException
+d) SQLException
+✅ c) NullPointerException
+
+17. Which of these is true about synchronized blocks?
+a) They improve performance
+b) They allow thread-safe access to shared resources
+c) They remove the need for locks
+d) They are always static
+✅ b) They allow thread-safe access to shared resources
+
+18. Which JVM option is used to set the initial heap size?
+a) -Xms
+b) -Xmx
+c) -Xmn
+d) -Xss
+✅ a) -Xms
+
+19. Which JVM option is used to set the maximum heap size?
+a) -Xms
+b) -Xmx
+c) -Xmn
+d) -Xss
+✅ b) -Xmx
+
+20. Which method of the Object class returns the runtime class of an object?
+a) getClass()
+b) classOf()
+c) objectClass()
+d) type()
+✅ a) getClass()
+
+21. Which method of the Object class is used to clone an object?
+a) clone()
+b) copy()
+c) replicate()
+d) duplicate()
+✅ a) clone()
+
+22. Which of these is true about the volatile keyword in Java?
+a) It ensures visibility of changes to variables across threads
+b) It allows synchronization without locks
+c) It makes variables immutable
+d) It prevents variables from being garbage collected
+✅ a) It ensures visibility of changes to variables across threads
+
+23. Which method in Thread class is used to check whether the thread is alive?
+a) isAlive()
+b) checkAlive()
+c) running()
+d) status()
+✅ a) isAlive()
+
+24. Which of these is not a type of reference in Java for garbage collection?
+a) Strong Reference
+b) Soft Reference
+c) Weak Reference
+d) Hard Reference
+✅ d) Hard Reference
+
+25. Which of these best describes Java’s pass-by-value mechanism?
+a) Java passes primitives by value and objects by reference
+b) Java passes both primitives and objects by reference
+c) Java passes both primitives and objects by value
+d) Java passes primitives by reference and objects by value
+✅ c) Java passes both primitives and objects by value
