@@ -1,7 +1,7 @@
 package in.java;
 
 import java.util.Scanner;
-
+//chech given number is Armstrong number or not
 public class ArmstrongNumbersInArray {
 
 	public static void main(String[] args) {
@@ -45,5 +45,6 @@ public class ArmstrongNumbersInArray {
         return arm == n;
     }
 	
+
 
 }
