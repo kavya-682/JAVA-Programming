@@ -42,7 +42,7 @@ public class LongestConsecutiveUnsortedArray {
 		
 		for(int i=0;i<tempArray.length-1;i++)
 		{
-			if(tempArray[i] > tempArray[i+1])
+			if(tempArray[i] < tempArray[i+1])
 			{
 				return false;
 			}
@@ -53,3 +53,4 @@ public class LongestConsecutiveUnsortedArray {
 
 
 }
+
