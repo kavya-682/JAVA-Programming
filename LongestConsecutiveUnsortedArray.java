@@ -27,7 +27,7 @@ public class LongestConsecutiveUnsortedArray {
 				{
 					 tempArray[j-i] = array[j] ;
 				}
-				if((isSort(tempArray)))
+				if((isUnsort(tempArray)))
 				{
 					System.out.println(tempArray.length);
 					return;
@@ -36,7 +36,7 @@ public class LongestConsecutiveUnsortedArray {
 		}
 	}
 	
-	private static boolean isSort(int[] tempArray) 
+	private static boolean isUnsort(int[] tempArray) 
 	{
 		
 		
@@ -50,5 +50,6 @@ public class LongestConsecutiveUnsortedArray {
 		return true;
 		
 	}
+
 
 }
