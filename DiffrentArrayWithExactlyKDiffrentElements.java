@@ -12,12 +12,11 @@ Print the number of subarrays with exactly k different elements.
 
 Sample Inputs & Outputs
 Sample Input 1
-
 5 2
 1 2 1 2 3
 Sample Output 1
-
 7
+
 Sample Input 2
 
 5 3
@@ -73,4 +72,5 @@ public class DiffrentArrayWithExactlyKDiffrentElements{
 
 
 }
+
 
