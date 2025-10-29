@@ -18,12 +18,11 @@ Sample Output 1
 7
 
 Sample Input 2
-
 5 3
 1 2 1 2 3
 Sample Output 2
-
 3
+
 Constraints
 1 ≤ n ≤ 100000 1 ≤ arr[i] ≤ 100000 1 ≤ k ≤ n
  */
@@ -72,5 +71,6 @@ public class DiffrentArrayWithExactlyKDiffrentElements{
 
 
 }
+
 
 
