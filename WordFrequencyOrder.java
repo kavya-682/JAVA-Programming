@@ -1,3 +1,55 @@
+/*
+Problem
+Write a Java program that processes a paragraph to count distinct word occurrences and display them based on the given sorting order. Words should be extracted after converting the text to lowercase and removing punctuation.
+
+Input Format
+The program should accept:
+
+1) A single line of input
+
+2) A number (0 or 1) on the next line.
+
+Output Format
+Display each distinct word followed by a space and its frequency on a new line. The ordering depends on the second input: 0 for alphabetical order, 1 for frequency descending.
+
+Sample Inputs & Outputs
+Sample Input 1
+
+This is a paragraph. It contains words, and sentences, and separators.
+0
+Sample Output 1
+
+a 1
+and 3
+contains 2
+has 1
+is 1
+it 2
+paragraph 2
+sentences 2
+separators 1
+this 1
+three 1
+words 2
+Sample Input 2
+
+This is a paragraph. It contains words, and sentences, and separators. 
+1
+Sample Output 2
+
+and 3
+contains 2
+it 2
+paragraph 2
+sentences 2
+this 1
+words 2
+a 1
+has 1
+is 1
+separators 1
+three 1
+*/
 import java.util.*;
 
 class WordFrequencyOrderWithOption {
@@ -63,4 +115,5 @@ class WordFrequencyOrderWithOption {
         scanner.close();
     }
 }
+
 
