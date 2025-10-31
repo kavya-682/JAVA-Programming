@@ -17,8 +17,7 @@ Sample Input 1
 
 This is a paragraph. It contains words, and sentences, and separators.
 0
-Sample Output 1
-
+Sample Output 
 a 1
 and 3
 contains 2
@@ -33,10 +32,10 @@ three 1
 words 2
 Sample Input 2
 
+
 This is a paragraph. It contains words, and sentences, and separators. 
 1
-Sample Output 2
-
+Sample Output 
 and 3
 contains 2
 it 2
@@ -115,5 +114,6 @@ class WordFrequencyOrderWithOption {
         scanner.close();
     }
 }
+
 
 
