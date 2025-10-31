@@ -1,6 +1,6 @@
 import java.util.*;
 
-class WordFrequencyOrder {
+class WordFrequencyOrderWithOption {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -63,3 +63,4 @@ class WordFrequencyOrder {
         scanner.close();
     }
 }
+
