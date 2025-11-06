@@ -1,0 +1,119 @@
+Essential Java, Collections, and SQL Concepts
+Based on the interview transcripts you provided, here is a point-wise summary of the questions and answers, drawing from the source material and citing comprehensively.
+Core Java Concepts
+• Q: What is polymorphism?
+    ◦ A: Polymorphism means one name having many forms [1, 2].
+    ◦ A: It behaves differently at different times [1].
+    ◦ A: It has two types: runtime polymorphism (achieved using method overriding) and compile time polymorphism (achieved using method overloading) [1, 2].
+    ◦ A: The purpose is to promote reusability and achieve better understanding of the coding [2].
+• Q: What is the difference between method overloading and overriding?
+    ◦ A (Overloading): Used to add extra features in a method [3]. It can happen in the same class, and the parameters of the methods must be changed [1, 2]. The return type of the method does not matter [4].
+    ◦ A (Overriding): Used to change or modify the implementation (operations) of an existing method in the parent class [3, 5]. It requires the extend keyword and the same method signature (name and parameters) in a parent/child relationship [1, 2, 5].
+• Q: Can we override a static method?
+    ◦ A: No [6].
+    ◦ A: Overriding is based on Dynamic Binding at runtime, while static methods use Static Binding at compile time [6].
+• Q: When to use static?
+    ◦ A: Used with variables as well as methods [3].
+    ◦ A: Used if some codes need to be used repeatedly, which helps reduce memory wastage [3, 7].
+    ◦ A: If multiple instances are created, the variable should use the latest value [7, 8].
+    ◦ A: Static variables can be called using the class name [8].
+• Q: When to use final?
+    ◦ A: Used when some data is proper, completed, or constant [7].
+    ◦ A: Used if we do not want to change a variable [8-10].
+    ◦ A: Used if we do not want to override a method [8].
+    ◦ A: Used if we do not want to extend a class [8].
+    ◦ A: A final variable must be initialized immediately, or its value can be initialized using a constructor [11].
+• Q: Can public, static, and final keywords be arranged in any sequence?
+    ◦ A: Yes, the sequence can be changed, and both orders are correct without resulting in an error [9, 12].
+• Q: What is the significance of the protected access specifier?
+    ◦ A: It is a keyword used with classes, variables, and methods [13].
+    ◦ A: It has scope within a class, outside a class, within a package, and outside the package [13].
+    ◦ A: To access protected data outside the package, the user must create an object of the subclass [13].
+• Q: What is garbage collection?
+    ◦ A: It is a memory management concept [11].
+    ◦ A: It happens automatically when objects are no longer used [11, 13].
+    ◦ A: It destroys the object [11, 13].
+    ◦ A: It is an automatic process and cannot be stopped [14].
+    ◦ A: The finalize() method will be executed before garbage collection runs [11, 14, 15].
+• Q: What is the use of the toString() method in Java?
+    ◦ A: It is used for the string representation of any object [2, 16].
+    ◦ A: It is available in the Object class (which gives the memory address) and the String class (which gives the values) [16].
+• Q: What are the two types of data types in Java?
+    ◦ A: Primitive data types (8 types: byte, short, int, long, double, float, char, and boolean) and Non-primitive data types (e.g., String class, array) [17].
+    ◦ A: Primitive data types have predefined sizes, but non-primitive data types do not [17].
+• Q: What is the difference between interface and abstract class?
+    ◦ A (Interface): Methods are abstract, and variables are constant [18]. A constructor is not present, so objects cannot be created [18].
+    ◦ A (Abstract Class): Abstract methods and implemented methods are present [18]. A constructor is also present [16]. The combination of abstract static final is not allowed [16].
+• Q: Why handle exceptions?
+    ◦ A: An exception is an event that disturbs the normal flow of program execution [16].
+    ◦ A: If exceptions are not handled, the remaining part of the program will not be executed [19].
+• Q: What keywords are used in exception handling?
+    ◦ A: try, catch, finally, throws, and throw [17, 19].
+• Q: What is the difference between throw and throws?
+    ◦ A (throw): Used to create custom exceptions [17, 19]. It can handle one exception at one time [19].
+    ◦ A (throws): It can handle multiple exceptions at a time [19]. It is used with the method and gives the charge to the caller method to handle the exception [17, 19].
+• Q: What is the use of super and this keywords?
+    ◦ A: Both are keywords and are exact replacements for object creation [20].
+    ◦ A: super represents the parent class and can call the parent class's method, variable, and constructor [20].
+    ◦ A: this represents the current class and can call the current class's method, variable, and constructor [20].
+• Q: Why use the package concept in Java?
+    ◦ A: It is used for the segregation of classes [21].
+    ◦ A: It allows for easier maintenance, as classes can be easily found (e.g., for debugging) [21].
+• Q: Why is Java platform independent?
+    ◦ A: Java converts bytecode into operating system codes, allowing Java to run on every operating system directly [22].
+    ◦ A: The interpreter is platform independent, but the Java installer and JVM are platform dependent [22].
+Collections Framework
+• Q: What is ArrayList?
+    ◦ A: ArrayList is a class in Java found in the java.util package [14].
+    ◦ A: It is index-based [14].
+    ◦ A: It allows multiple types of data (heterogeneous) [14].
+    ◦ A: Duplicate elements are allowed [14].
+    ◦ A: It maintains insertion order [14].
+• Q: What is the difference between Array and ArrayList?
+    ◦ A (Array): Can store only one type of data and is not growable [20].
+    ◦ A (ArrayList): Can add any type of data and is growable [14, 21].
+• Q: What is the difference between HashSet and ArrayList?
+    ◦ A: In HashSet, duplicate elements are not allowed, searching is not allowed, and it does not maintain the insertion order [6].
+• Q: How does HashMap store data?
+    ◦ A: HashMap stores data in pairs of key and value [6].
+    ◦ A: Keys can be iterated using the keySet() method, and values using the values() method [6].
+• Q: What is the difference between HashMap and Hashtable?
+    ◦ A: Hashtable is synchronized, and HashMap is non-synchronized [23].
+    ◦ A: HashMap allows one null key and multiple null values. Hashtable does not use null key or null values [23].
+• Q: What is the difference between Collection and Collections?
+    ◦ A: Collections is a class, and Collection is an interface [23].
+    ◦ A: Using methods from the Collections class simplifies operations that would require writing a lot of code using the Collection interface [23].
+Advanced Java/Frameworks
+• Q: What is the difference between Spring and Spring Boot?
+    ◦ A: Spring Boot internally uses Spring [24].
+    ◦ A: The main feature of Spring is Dependency Injection (DI). Spring Boot primarily uses the Inversion of Control (IoC) feature [24].
+    ◦ A: In Spring, dependencies and files like pom.xml must be managed manually. In Spring Boot, they are managed automatically [24].
+• Q: What is the difference between Hibernate and JDBC?
+    ◦ A: JDBC is a technology/approach; Hibernate is a framework [24].
+    ◦ A: JDBC uses a procedural approach; Hibernate uses an object-oriented approach [24, 25].
+    ◦ A: In JDBC, SQL queries must be written using Statement or PreparedStatement. Hibernate uses its own language (Hibernate SQL language/HQL), and direct SQL queries are not required [25].
+    ◦ A: JDBC is connection dependent, whereas Hibernate is not connection dependent [25].
+• Q: What is the flow of a REST API request (Controller/Service/DAO)?
+    ◦ A (Request Flow): Postman -> Rest Controller -> Service -> DAO [26].
+    ◦ A (Reverse Flow): Database -> DAO -> Service -> Controller -> Postman [26].
+    ◦ A: When adding data via Postman, it is typically written in JSON format [26].
+Database (SQL)
+• Q: What is SQL?
+    ◦ A: SQL stands for Structural Query Language [27, 28].
+    ◦ A: It is a simple English-like language used for manipulating data (performing CRUD operations) [28].
+• Q: What is the difference between DDL and DML?
+    ◦ A (DML - Data Manipulation Language): Used to perform CRUD operations like select, insert, update, delete [27].
+    ◦ A (DDL - Data Definition Language): Used to perform changes with the table structure, such as create, alter, and drop [29].
+• Q: What is the difference between DELETE, TRUNCATE, and DROP?
+    ◦ A (DELETE): Deletes a particular record/row (data) from the table [29, 30].
+    ◦ A (TRUNCATE): Removes the data of the table, but the columns (structure) remain present [29, 30].
+    ◦ A (DROP): Directly deletes the entire table (columns, data, and structure) [29, 30].
+• Q: What is a primary key?
+    ◦ A: It is a key that is unique and not null [29, 31]. It is useful for uniquely identifying records [31].
+• Q: What is a foreign key?
+    ◦ A: It is used to create a connection/link between two tables [29, 31]. The foreign key references the primary key of another table [29, 31].
+• Q: What are the main types of SQL joins?
+    ◦ A: Self-join, Inner Join, and Outer Join (including Left Outer Join, Right Outer Join, and Fully Outer Join) [28].
+    ◦ A (Inner Join): Takes only the matched data between two tables [28].
+    ◦ A (Left Outer Join): Fetches the matched data and all data from the left table [30].
+    ◦ A (Full Outer Join): Fetches all data [30].
