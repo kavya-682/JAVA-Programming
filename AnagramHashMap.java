@@ -1,4 +1,5 @@
 //to chech given string is Anagram
+//Write a program to find all anagrams of a given word from a list of words
 import java.util.HashMap;
 
 public class AnagramHashMap {
@@ -30,3 +31,4 @@ public class AnagramHashMap {
         System.out.println(isAnagram("hello", "world"));   // false
     }
 }
+
